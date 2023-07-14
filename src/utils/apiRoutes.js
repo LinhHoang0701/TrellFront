@@ -1,4 +1,4 @@
-const baseUrl = "http://localhost:5000";
+const baseUrl = "http://13.213.49.62:5000";
 
 export const uploadAvatarRoute = `${baseUrl}/api/user/avatar/upload`;
 export const registerUserRoute = `${baseUrl}/api/user/register`;
