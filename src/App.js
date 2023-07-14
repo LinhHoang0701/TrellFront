@@ -12,7 +12,7 @@ import { getMe } from "./redux/features/userSlice";
 import ProtectedRoute from "./components/ProtectedRoute";
 import io from "socket.io-client";
 
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "http://13.213.49.62:5000";
 export const socket = io.connect(ENDPOINT);
 
 function App() {
